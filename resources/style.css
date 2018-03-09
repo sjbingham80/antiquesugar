@@ -227,7 +227,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  
+
 }
 
 .feature .image-container {
@@ -344,6 +344,38 @@ header .mobile {
   #filters-section .extra {
     display: none;
   }
+}
+
+/*Contact Section*/
+#contact-section {
+  padding: 4rem 0;
+  background-color: #d3d3d3;
+}
+
+#contact-section h1 {
+  padding-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+#contact-section .container {
+  display: inline-flex;
+}
+
+#contact-section .map {
+  padding: 0 .625rem;
+}
+
+#contact-section .location {
+  font-size: 2.25rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
 /* Quotes Section */
