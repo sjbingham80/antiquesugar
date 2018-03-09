@@ -243,7 +243,7 @@ header .mobile {
 .image-container img {
   display: block;
   max-width: 100%;
-  max-height: 500px;
+  max-height: 480px;
 }
 
 .feature h2 {
@@ -285,63 +285,63 @@ header .mobile {
   }
 }
 
-/* Filters Section */
+/* picture Section */
 
-#filters-section {
+#picture-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
 
-#filters-section .content {
+#picture-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
 }
 
-#filters-section .content h2 {
+#picture-section .content h2 {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
 }
 
-#filters-section .content h3 {
+#picture-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 300;
   color: white;
 }
 
-#filters-section .images-container {
+#picture-section .images-container {
   max-width: 100%;
   padding: 0 1%;
   display: flex;
 }
 
 @media only screen and (max-width: 760px) {
-  #filters-section {
+  #picture-section {
     padding: 1.5rem 0 0 0;
   }
 
-  #filters-section .content {
+  #picture-section .content {
     margin-bottom: 1rem;
   }
 
-  #filters-section .content h2 {
+  #picture-section .content h2 {
     padding-bottom: .625rem;
     font-size: 1.125rem;
     line-height: 1.3;
     font-weight: normal;
   }
 
-  #filters-section .content h3 {
+  #picture-section .content h3 {
     font-size: .875rem;
     line-height: 1.4;
   }
 
-  #filters-section .images-container {
+  #picture-section .images-container {
     padding: 0;
   }
 
-  #filters-section .extra {
+  #picture-section .extra {
     display: none;
   }
 }
@@ -362,10 +362,13 @@ header .mobile {
 
 #contact-section .container {
   display: inline-flex;
+
 }
 
 #contact-section .map {
   padding: 0 .625rem;
+  width: 50%;
+  height: auto;
 }
 
 #contact-section .location {
@@ -376,6 +379,8 @@ header .mobile {
   text-align: center;
   align-items: center;
   padding-top: 50px;
+  width: 65%;
+  height: auto;
 }
 
 /* Quotes Section */
