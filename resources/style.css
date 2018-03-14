@@ -42,7 +42,11 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-}
+  z-index: 2;
+  background-color: #f3f3f3;
+  font-weight: bold;
+ }
+
 
 header .content {
   display: flex;
@@ -353,7 +357,7 @@ header .mobile {
 }
 
 #contact-section h1 {
-  padding-bottom: .5rem;
+  padding-bottom: 2rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
@@ -363,25 +367,66 @@ header .mobile {
 #contact-section .container {
   display: inline-flex;
 
+
 }
 
 #contact-section .map {
   padding: 0 .625rem;
-  width: 50%;
+  width: 33%;
   height: auto;
+
 }
 
 #contact-section .location {
   font-size: 2.25rem;
   font-weight: bold;
-  background-color: black;
+  background-color: #4a4a4a;
   color: white;
   text-align: center;
   align-items: center;
   padding-top: 50px;
-  width: 65%;
+  width: 33%;
   height: auto;
+  margin-right: 2rem;
 }
+
+#contact-section .contact {
+  font-size: 2.25rem;
+  font-weight: bold;
+  background-color: white;
+  color: #4a4a4a;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  width: 33%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+/*
+@media only screen and (max-width: 760px) {
+  #contact-section {
+    display: block;
+    padding: 0;
+  }
+
+  .map {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .location {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .contact {
+    margin: 0;
+    padding: 1.25rem 1rem 0 1rem;
+  }
+}
+*/
+
 
 /* Quotes Section */
 
