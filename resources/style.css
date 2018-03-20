@@ -74,6 +74,11 @@ nav a {
   color: #4a4a4a;
 }
 
+nav a:hover {
+  color: #9dc20b;
+}
+
+
 header .icon {
   width: 1rem;
   padding-left: .75rem;
@@ -148,6 +153,7 @@ header .mobile {
 
 #sign-up-cta h1 {
   font-size: 3.125rem;
+
 }
 
 #sign-up-cta h2 {
@@ -160,16 +166,24 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
+  font-size: 2rem;
 }
 
 #sign-up-cta .striking {
-  font-family: "Rubik", sans-serif;
+  /*font-family: "Rubik", sans-serif;*/
+  /*font-family: 'Rammetto One', cursive;*/
   padding-bottom: .75rem;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
+  padding: 1.25rem 5.25rem;
+  font-size: 1.5rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.button:hover {
+  background-color: #ff00bf;
 }
 
 @media only screen and (max-width: 760px) {
@@ -184,6 +198,10 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+  }
+
+  #sign-up-cta .button {
+    display: none;
   }
 
   #sign-up-cta .content {
@@ -312,6 +330,7 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  padding-top: 1rem;
 }
 
 #picture-section .images-container {
@@ -365,9 +384,7 @@ header .mobile {
 }
 
 #contact-section .container {
-  display: inline-flex;
-
-
+  display: flex;
 }
 
 #contact-section .map {
@@ -384,8 +401,9 @@ header .mobile {
   color: white;
   text-align: center;
   align-items: center;
-  padding-top: 50px;
-  width: 33%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 50%;
   height: auto;
   margin-right: 2rem;
 }
@@ -397,35 +415,65 @@ header .mobile {
   color: #4a4a4a;
   text-align: center;
   align-items: center;
-  padding-top: 50px;
-  width: 33%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 50%;
   height: auto;
   margin-right: 2rem;
 }
 
-/*
+.location a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.location a:hover {
+  color: #9dc20b;
+}
+
+.contact a {
+  color: #4a4a4a;
+}
+
+.contact a:hover {
+  color: #9dc20b;
+}
+
+
 @media only screen and (max-width: 760px) {
+
   #contact-section {
-    display: block;
-    padding: 0;
+    margin-top: 1rem;
   }
 
-  .map {
+  #contact-section h1 {
+    display: none;
+    }
+
+  #contact-section .container {
+    display:block;
+  }
+
+  /*.map {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }*/
+
+  .location span {
+    display: none;
   }
 
   .location {
-    margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    min-width: 100%;
   }
 
   .contact {
-    margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+   min-width: 100%;
   }
+
 }
-*/
+
 
 
 /* Quotes Section */
